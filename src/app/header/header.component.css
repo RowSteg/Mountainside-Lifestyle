@@ -1,5 +1,5 @@
 .navbar{
-    margin:0px;
+    margin:0;
     text-align: left;
     background-color: #796b65;
     padding: 5px 5px 0px;
@@ -9,4 +9,10 @@
     background-image: url("file:///C:/Users/rowst/Mountainside-Lifestyle/src/assets/img/background.png");
     background-repeat: repeat-x;
     background-size: 1080px 1080px;
+    margin:0;
+    padding:0;
+}
+.html{
+    margin:0;
+    padding:0;
 }
