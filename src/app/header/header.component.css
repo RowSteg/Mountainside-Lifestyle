@@ -25,6 +25,7 @@
 .topnav {
     background-color: rgb(63, 60, 57);
     overflow: hidden;
+    margin: auto;
 }
 
 /* Style the links inside the nav bar */
@@ -37,6 +38,7 @@
     font-size: 17px;
     border-style: none solid;
     border-width: 1px;
+    font-family: "Verdana";
 }
 
 /* Change the color of links on hover */
