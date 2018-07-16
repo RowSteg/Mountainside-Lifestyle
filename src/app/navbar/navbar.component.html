@@ -1,24 +1,9 @@
-<mat-card>
-    <mat-card-title>
-      Angular Material Menu Demo
-    </mat-card-title>
-    <mat-card-content>
-      <button mat-raised-button color="primary" [matMenuTriggerFor]="navbar">
-        Open Menu
-      </button>
-      <mat-menu #navbar="matMenu">
-        <button mat-menu-item>
-          <mat-icon>settings</mat-icon>
-          <span>Settings</span>
-        </button>
-        <button mat-menu-item>
-          <mat-icon>voicemail</mat-icon>
-          <span>Check Voicemail</span>
-        </button>
-        <button mat-menu-item>
-          <mat-icon>notifications_off</mat-icon>
-          <span>Disable Alerts</span>
-        </button>
-      </mat-menu>
-    </mat-card-content>
-  </mat-card>
+    <button mat-stroked-button color="white">
+      <span>Settings</span>
+    </button>
+    <button mat-stroked-button color="primary">
+      <span>Check Voicemail</span>
+    </button>
+    <button mat-stroked-button color="primary">
+      <span>Disable Alerts</span>
+    </button>
