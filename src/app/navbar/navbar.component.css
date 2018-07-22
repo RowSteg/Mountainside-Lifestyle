@@ -1,6 +1,5 @@
-.SA{
-
-}
-.navbar{
-    background-color: rgb(63, 60, 57);
+/*give nav bar base color*/
+.topnav {
+    background-color: #796b65;
+    margin: auto;
 }
