@@ -1,5 +1,10 @@
 /*give nav bar base color*/
 .topnav {
-    background-color: #796b65;
-    margin: auto;
+    background-color: #504642;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+.topnav button{
+    border-style: none solid;
+    border-width: 1px;
 }
