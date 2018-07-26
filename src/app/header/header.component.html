@@ -1,5 +1,26 @@
 <div class="header">
-  <a class="header-logo">
+  <a class="header-logo" routerLink="/home">
     <img src="assets/img/Mountainside Lifestyle Logo.png" alt="Mountainside Lifestyle Logo" width=90px length=90px>
   </a>
 </div>
+<nav class="navbar">
+    <a routerLink="/products">
+    <button mat-flat-button color="primary">
+        <span>Mens</span>
+    </button>
+    <button mat-flat-button color="primary">
+        <span>Womens</span>
+    </button>
+    <button mat-flat-button color="primary">
+        <span>Sports & Outdoors</span>
+    </button>
+    <button mat-flat-button color="primary">
+        <span>Artisan Items</span>
+    </button>
+    <button mat-flat-button color="primary">
+        <span>Teas & Spices</span>
+    </button>
+</a>
+</nav>
+
+<router-outlet></router-outlet>

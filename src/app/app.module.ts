@@ -5,16 +5,19 @@ import {  MatButtonModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ProductsComponent } from './products/products.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ProductsComponent
+    ProductsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule, 
-    MatButtonModule 
+    MatButtonModule, AppRoutingModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
